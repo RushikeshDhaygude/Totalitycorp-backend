@@ -6,10 +6,10 @@ import { connect } from "mongoose";
 import connectDB from "./config/db.js";
 import cors from "cors";
 import authRoutes from "./routes/authRoute.js";
-import categoryRoutes from "../Ecommerce_Website/routes/categoryRoutes.js";
-import productRoutes from "../Ecommerce_Website/routes/productRoutes.js";
+import categoryRoutes from "./routes/categoryRoutes.js";
+import productRoutes from "./routes/productRoutes.js";
 
-//rest object
+//rest objectgit 
 const app = express();
 
 //config env
